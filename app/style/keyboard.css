@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+  font-size: 10px;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#keyboard {
+  -moz-user-select: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#controls {
+  margin: 0 2rem;
+  padding: 0;
+  font-family: monospace;
+  font-size: 2.8rem;
+  text-align: right;
+  color: #aaa;
+  pointer-events: auto;
+}
+
+#controls span[role="button"]{
+  border-radius: 0.2rem;
+}
